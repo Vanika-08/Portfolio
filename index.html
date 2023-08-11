@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vanika - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styless.css">
+  <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+  
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+    <div class="container">
+      <a class="navbar-brand text-white" href="#">Vanika</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white text-decoration-underline" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white text-decoration-underline" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white text-decoration-underline" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white text-decoration-underline" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <h1>Hi, it's me Vanika</h1>
+      <p>I am a professional Full Stack Developer</p>
+    </div>
+  </header>
+<div class="abc">
+  <!-- About Section -->
+  <section id="about" class="about-me py-5 bg-light">
+    <div class="container">
+      
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="display-6 text-decoration-underline ">About Me</h2><br>
+          <p class="lead">A Passionate and Creative Full Stack Developer</p>
+          <p>Hello there! I'm a Vanika with a strong passion for creating digital experiences that captivate and inspire. With a blend of creativity and technical expertise, I strive to push the boundaries of what's possible in web development.</p>
+          <p>In my portfolio, you'll find a showcase of projects that demonstrate my versatility, innovation, and dedication to excellence. Whether it's a dynamic web application, an e-commerce platform, or a content management system, I relish every opportunity to make the web a better place, one line of code at a time.</p>
+          <blockquote class="blockquote font-weight-bold">
+            <p class="mb-0"><i class="font-weighta-bolder">"Design is not just what it looks like and feels like. Design is how it works." - Steve Jobs</p></i>
+          </blockquote><br>
+          <button class="btn btn-secondary" onclick="downloadResume()">Download Resume</button>
+        </div><br>
+        <div class="col-lg-6">
+          <img src="passport_photo.jpg" id="qrp"alt="Vanika" class="img-fixed rounded-circle mb-4">
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- Service Section -->
+<div id="ab">
+<section id="services" class="bg-light">
+  <div class="container">
+    <h2 class="mb-5 text-decoration-underline">Our Services</h2>
+    <div class="row">
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-4">
+          <!-- Add an image to the card -->
+          <img src="front end.png" alt="Front-End Development" class="card-img-top" id="front">
+          <!-- Add the overlay for the text content -->
+          <div class="overlay">
+            <h3 class="card-title">Front-End Development</h3>
+            <p class="card-text">Our front-end development services focus on creating user-friendly and interactive interfaces for web applications. We specialize in the following techno logies:
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React, Angular, Vue.js</li>
+              </ul>
+              Whether it's a simple landing page or a complex web app, we can turn your ideas into reality with a focus on performance, accessibility, and cross-browser compatibility.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-4">
+          <!-- Add an image to the card -->
+          <img src="back end.png" alt="Back-End Development" class="card-img-top" id="back" >
+          <!-- Add the overlay for the text content -->
+          <div class="overlay">
+            <h3 class="card-title">Back-End Development</h3>
+            <p class="card-text">Our back-end development services focus on building robust and scalable server-side applications to power your web projects. We excel in the following areas:
+              <ul>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>Database Management</li>
+                <li>Django</li>
+              </ul>
+              We prioritize security, performance, and scalability to ensure your application can handle increased traffic and data demands. 
+            </p></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-4">
+          <!-- Add an image to the card -->
+          <img src="full stack.png" alt="full-stack Development" class="card-img-top" id="full">
+          <!-- Add the overlay for the text content -->
+          <div class="overlay">
+            <h3 class="card-title">Full Stack Development</h3>
+            <p class="card-text">Our full-stack development services cover the entire spectrum of web application development. With expertise in both front-end and back-end technologies, we deliver comprehensive solutions that bring your ideas to life. Our services include:
+              <ul>
+                <li>End-to-End Application Development</li>
+                <li>Responsive and Intuitive User Interfaces</li>
+                <li>API Integration</li>
+                <li>Database Management</li>               
+              </ul>
+              We take pride in crafting high-performance and scalable applications that address your unique business needs.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Add more service cards as needed -->
+    </div>
+  </div>
+</section>
+</div>
+<!-- portfolio section-->
+<section id="projects" class="bg-light">
+  <div class="container">
+    <div class="conatin">
+      <h1 class=" text-decoration-underline ">Projects</h1></div>
+      <div class="row">
+          <div class="col-lg-4 mt-4">
+              <div class="card">
+                  <div class="card-body">
+                      <h4 class="card-title text-center text-decoration-underline">To-do List</h4><br>
+                      <p class="card-text ">The To-Do List Application is a standout project that I developed to showcase my skills in software development and user experience design. It is a feature-rich task management application designed to help users efficiently organize and prioritize their daily tasks, appointments, and reminders.</p><br><br><br>
+                      <div class="text-center">
+                          <a href="index.html" class="btn btn-success">Link</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 mt-4">
+              <div class="card portfolioContent">
+                  
+                  <div class="card-body">
+                      <h4 class="card-title text-center text-decoration-underline">Quiz App</h4><br>
+                      <p class="card-text">Welcome to my Quiz App project! As a passionate web developer and programmer, I sought to create an interactive and engaging web application that would challenge users' knowledge while demonstrating my skills in frontend and backend development. The Quiz App aims to provide users with a fun and educational experience as they explore various quiz categories and test their expertise in different subjects.</p><br>
+                      <div class="text-center">
+                          <a href="quiz.html" class="btn btn-success">Link</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 mt-4">
+              <div class="card portfolioContent">
+                 
+                  <div class="card-body">
+                      <h4 class="card-title text-center text-decoration-underline">Product Landing Page</h4><br>
+                      <p class="card-text">The Product Landing Page is dedicated to introducing an innovative and elegant product that addresses a specific need or problem. The page serves as the first point of contact for potential customers, providing them with an immersive experience that captivates their attention from the moment they land on the site</p><br><br><br>
+                      <div class="text-center">
+                          <a href="yah.html" class="btn btn-success">Link</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <br>
+      <div class="row">
+          <div class="col-lg-4 mt-4">
+              <div class="card portfolioContent">
+                  
+                  <div class="card-body">
+                      <h4 class="card-title text-center text-decoration-underline">Messaging Service</h4><br>
+                      <p class="card-text">The Message Service is designed to enable users to send and receive messages in real-time, fostering instant and effective communication between individuals or groups. With a focus on simplicity and user experience, the platform aims to streamline interactions and keep users connected effortlessly.</p><br><br><br>
+                      <div class="text-center">
+                          <a href="message.html" class="btn btn-success">Link</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 mt-4">
+              <div class="card portfolioContent">
+                 
+                  <div class="card-body">
+                      <h4 class="card-title text-center text-decoration-underline">Expense Tracker</h4><br>
+                      <p class="card-text">The Expense Tracker is a user-friendly web application designed to help individuals manage their finances effectively. By allowing users to track their expenses, set budgets, and analyze spending patterns, the platform aims to empower users with valuable insights into their financial habits.</p><br><br><br>
+                      <div class="text-center">
+                          <a href="expense.html" class="btn btn-success">Link</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 mt-4">
+              <div class="card portfolioContent">
+                  
+                  <div class="card-body">
+                      <h4 class="card-title text-center text-decoration-underline">Calculator</h4><br>
+                      <p class="card-text">The Calculator project is a web-based application designed to provide users with a simple and efficient tool for performing basic arithmetic operations. Developed as a part of my portfolio, this project showcases my skills in web development, utilizing Bootstrap for responsive and visually appealing user interfaces, as well as JavaScript for dynamic functionality.</p><br><br>
+                      <div class="text-center">
+                          <a href="calculator.html" class="btn btn-success">Link</a>
+                      </div>
+                  </div>
+              </div>
+          </div><br><br>
+      </div>
+</section>
+  <!-- Contact Section -->
+  <section id="contact" class="bg-light">
+    <div class="container">
+      <h2 class=" text-decoration-underline fo">Contact Me</h2><br>
+      <form id="form" >
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" id="abcd">Send Message</button><br><br><br>
+      </form>
+    </div>
+  </section>
+   <!-- Footer Section -->
+   <footer class="footer ">
+    <div class="container text-center">
+      <ul class="list-inline mb-0">
+        <!-- Instagram -->
+        <li class="list-inline-item mx-2">
+          <a href="https://www.instagram.com/" target="_blank" title="Instagram">
+            <i class="fab fa-instagram text-white fa-2x"><img src="instagram.png" class="xyz"></i>
+          </a>
+        </li>
+        <!-- Facebook -->
+        <li class="list-inline-item mx-2">
+          <a href="https://www.facebook.com/" target="_blank" title="Facebook">
+            <i class="fab fa-facebook text-white fa-2x"><img src="facebook.png" class="xyz "></i>
+          </a>
+        </li>
+        <!-- WhatsApp -->
+        <li class="list-inline-item mx-2">
+          <a href="https://wa.me/phone-number" target="_blank" title="WhatsApp">
+            <i class="fab fa-whatsapp text-white fa-2x"><img src="whatsapp.png" class="xyz"></i>
+          </a>
+        </li>
+        <!-- LinkedIn -->
+        <li class="list-inline-item mx-2">
+          <a href="https://www.linkedin.com/" target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin text-white fa-2x"><img src="linkedin.png" class="xyz"></i>
+          </a>
+        </li>
+        <!-- Dribbble -->
+        <li class="list-inline-item mx-2"> 
+          <a href="https://dribbble.com/" target="_blank" title="Dribbble">
+            <i class="fab fa-dribbble text-white fa-2x"><img src="dribble-big-logo.png" class="xyz "></i>
+          </a>
+        </li>
+      </ul>
+      <p class="text-white mt-3">&copy; 2023 Vanika. All rights reserved.</p>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
