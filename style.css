@@ -1,0 +1,204 @@
+/* body part */
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+/* nav bar */
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 12;
+}
+.navbar-brand{
+  color: white;
+}
+.nav-link{
+  color: white;
+}
+.nav-link:hover{
+  font: 1.20em sans-serif;
+  background-color: rgb(53, 53, 53);
+}
+/* hero section */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url('hero back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    font-size: 2em;
+  }
+  /* about section  */
+  .about{
+    /* background: url('about back.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-size: 1.05em;
+    font-weight: 100;
+    font-family: sans-serif;
+  }
+  .about, .projects, .contact {
+    padding: 80px 0;
+  }
+  #qrp{
+    height: 400px;
+    box-shadow: 8px 8px 8px 6px #00000070
+  }
+  .img-fixed{
+    height: 400px;
+    margin-left: 120px;
+    /* border: 3px solid #007bff; Add a border around the image container */
+    border-radius: 50%;
+    /* box-shadow: 10px black; Add a subtle box shadow to the image */
+  }
+  #qrp:hover{
+    transition: all ease 2s;
+  }
+  h2{
+    font-weight: 100;
+  }
+  
+  #about h2 {
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .about p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+
+  /* footer section */
+  .footer {
+    text-align: center;
+    padding: 30px 0;
+    background-color:rgba(0, 0, 0, 0.829);
+    color: white;
+  }
+/* service section */
+#services{
+  margin-top: 0px;
+  min-height: 100vh;
+}
+#services h2 {
+  padding-top: 60px;
+  color: #19161a;
+  font-size: 36px;
+  font-weight: bold;
+ 
+}
+#project h2 {
+  padding-top: 60px;
+  color: #19161a;
+  font-size: 36px;
+  font-weight: bold;
+ 
+}
+/* Styling for the Service cards */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden; /* Hide the overflow of the overlay content */
+  transition: transform 0.3s ease;
+  position: static;
+  z-index: -1;
+}
+
+/* Styling for the images inside the cards */
+#front, #back ,#full {
+  transition: opacity 0.3s ease; /* Add a transition for the opacity property */
+  height: 400px;
+}
+.card:hover{
+  transform: scale(1.1) ;
+}
+.card:hover .card-img-top {
+  opacity: 0; /* Hide the image on hover */
+}
+/* Styling for the overlay */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent black background */
+  color: #fff;
+  padding: 20px;
+  opacity: 0; /* Start with 0 opacity to hide the overlay */
+  transition: opacity 0.3s ease; /* Add a transition for the opacity property */
+}
+.card:hover .overlay {
+  opacity: 1; /* Show the overlay on hover */
+  background-color: rgb(43, 42, 42);
+  transition: rotate(-3deg);
+}
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.card-text {
+  font-size: 16px;
+}
+.list-inline{
+  color: white;
+} 
+.xyz{
+  height: 20px;
+  background-color: white;
+  border-radius: 30px;
+}
+#contact h2{
+  color:black;
+  font-size: 36px;
+  font-weight: bolder;
+  padding-top: 20px;
+}
+.mb-3{
+  color: black;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .custom-cols .col-md-4 {
+    flex: 0 0 33%;
+    max-width: 28%;
+  }
+}
+.col-md-4{
+  border: 2px solid #7575756b;
+}
+.navbar-toggler-button{
+  background: url('https://as1.ftcdn.net/v2/jpg/02/25/22/18/1000_F_225221877_9x7repcZzz4ryhvZ4Z5DmlnnCTdTUImT.jpg');
+}
+.mb-0{
+  font-weight: bolder;
+}
+
+#to-do{
+  margin-left: 10px;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.cardd-img-top{
+  width: 96%;
+}
+.card-body{
+  height: 400px;
+}
+.card-body a{
+  margin-bottom:  10px;
+}
+.card-body:hover{
+  
+}
+.cardd:hover{
+  box-shadow: 8px 8px 8px 8px grey;
+  transform: scale(1.1) ;
+}
